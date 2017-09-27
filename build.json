@@ -1,0 +1,13 @@
+{
+	"id": "rot13",
+	"version": "1.0",
+	"description": "Simple SHA1 Generator",
+	"categories": [
+		"rot13",
+		"encoding",
+		"admin",
+		"tool",
+		"utility"
+	],
+	"compatible_from": "2017.4"
+}
