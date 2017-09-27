@@ -35,7 +35,7 @@ class Rot13 extends Controller
 
     public function contentFilter($html)
     {
-        preg_match_all("/\[rot](.+)\[\/rot13]/", $html, $match);
+        preg_match_all("/\[rot13](.+)\[\/rot13]/", $html, $match);
         
         if (count($match) > 0) {
             for ($i = 0; $i < count($match[0]); $i ++) {

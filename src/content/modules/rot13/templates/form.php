@@ -1,5 +1,5 @@
 <form
-	action="<?php Template::escape(ModuleHelper::buildAdminURL("simple_sha1_generator"));?>"
+	action="<?php Template::escape(ModuleHelper::buildAdminURL("rot13"));?>"
 	method="post">
 	<strong><?php translate("enter_text");?></strong><br />
 	<p>
