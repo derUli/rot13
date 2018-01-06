@@ -43,7 +43,7 @@ class Rot13 extends Controller
                 $value = unhtmlspecialchars($match[1][$i]);
                 $value = str_rot13($value);
                 $newHtml = "<div class=\"rot13\">$value</div>";
-                $html = str_replace($placeholder, $value, $newHtml);
+                $html = str_replace($placeholder, $newHtml, $html);
             }
         }
         return $html;
