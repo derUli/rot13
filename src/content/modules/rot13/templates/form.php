@@ -7,7 +7,7 @@
 			value="<?php Template::escape(Request::getVar("text"));?>">
 	</p>
 	<p>
-		<button type="submit" class="btn btn-success"><?php translate("generate");?></button>
+		<button type="submit" class="btn btn-success"><i class="fas fa-user-secret"></i>  <?php translate("generate");?></button>
 	</p>
 		<?php csrf_token_html();?>
 		<?php if(ViewBag::get("result")){?>
